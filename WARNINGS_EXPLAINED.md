@@ -56,3 +56,5 @@ You could downgrade urllib3, but it's not necessary:
 
 **Recommendation**: Just use the warning suppression cell and ignore them. Your code will work perfectly! 🚀
 
+
+
