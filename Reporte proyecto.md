@@ -108,20 +108,11 @@ Mejoras potenciales:
 1. **Scoring Ponderado:** Asignar mayor peso a la evidencia de la API para claims estadísticos, y mayor peso a Tavily para noticias recientes.
 2. **Detección de Conflictos:** Clasificar como DOUBTFUL cuando hay contradicciones entre fuentes.
 3. **Ejecución Paralela:** Optimizar latencia ejecutando búsqueda web y consulta API simultáneamente.
+4. **Mejora del Fine-Tuning del Modelo QA:** Para el demo y la entrega del proyecto se entrenó el modelo con pocos datos y ejemplos muy específicos. Con un dataset más amplio y diverso que incluya más jugadores, equipos, temporadas y tipos de consultas, el fine-tuning mejorado del modelo QA sería un excelente complemento a la herramienta de mitigación de desinformación, aumentando significativamente su precisión y cobertura.
 
 ## **5\. Conclusiones**
 
-El proyecto implementa un agente de verificación de hechos para el dominio de la NBA mediante LangGraph. La orquestación permite gestionar un flujo híbrido que combina:
-
-- **Búsqueda web en tiempo real** (Tavily) para noticias y contexto narrativo
-- **Sistema QA + NBA API** (NBAQASystem con nba_api) para datos estadísticos estructurados y oficiales
-- **LLM con salida estructurada** para clasificación final (REAL/FAKE/DOUBTFUL)
-
-Esta arquitectura permite validación cruzada entre fuentes, mejorando la confiabilidad de la clasificación y mitigando la alucinación del LLM mediante evidencia verificable.
-
-**Trabajo futuro:**
-
-Como recomendación principal para el trabajo futuro, se sugiere la implementación de smart routing para optimizar los nodos de búsqueda. Adicionalmente, la introducción de un nodo de Human-in-the-Loop o de negociación activado por una confidence ambigua podría proporcionar un arbitraje de alta calidad en casos de conflicto de evidencia, solidificando la fiabilidad del sistema.
+El proyecto desarrolla un agente de verificación de hechos especializado para el dominio de la NBA mediante la orquestación con LangGraph, demostrando la viabilidad de combinar múltiples fuentes de información complementarias para mejorar la precisión en la verificación de aserciones deportivas. La arquitectura híbrida implementada integra búsqueda web en tiempo real (Tavily) con el sistema QA basado en NBA API, permitiendo cubrir tanto información reciente como datos históricos y estadísticos, superando así las limitaciones de sistemas basados únicamente en conocimiento estático. El mecanismo de validación cruzada entre fuentes narrativas y datos estructurados proporciona mayor confiabilidad en la clasificación final, reduciendo significativamente el riesgo de alucinaciones del LLM. El uso de LangGraph permite implementar un flujo de trabajo robusto con bifurcaciones condicionales que filtran consultas irrelevantes, optimizan búsquedas y gestionan la evidencia de manera estructurada, garantizando trazabilidad en el proceso de verificación. La clasificación tripartita (REAL/FAKE/DOUBTFUL) con explicaciones generadas proporciona transparencia y contexto al usuario final.
 
 ---
 
