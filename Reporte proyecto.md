@@ -116,10 +116,8 @@ El proyecto desarrolla un agente de verificación de hechos especializado para e
 
 ---
 
-## **Referencias**
+## **Artículos Relacionados**
 
-1. Escándalo en la NBA: algunas estrellas acusadas por fraude millonario con apuestas • FRANCE 24 - YouTube, [https://www.youtube.com/watch?v=vmLcxHVQTvc](https://www.youtube.com/watch?v=vmLcxHVQTvc)  
-2. Escándalo en la NBA: ¿Qué juegos estaban en el esquema de apuestas ilegales?, [https://www.si.com/mx/basquetbol/escandalo-nba-que-juegos-estaban-esquema-apuestas-ilegales](https://www.si.com/mx/basquetbol/escandalo-nba-que-juegos-estaban-esquema-apuestas-ilegales)  
-3. Graph API overview - Docs by LangChain, [https://docs.langchain.com/oss/python/langgraph/graph-api](https://docs.langchain.com/oss/python/langgraph/graph-api)  
-4. Surprising Efficacy of Fine-Tuned Transformers for Fact-Checking - arXiv, [https://arxiv.org/html/2402.12147v3](https://arxiv.org/html/2402.12147v3)  
-5. A Hybrid Human-In-The-Loop Framework for Fact Checking - CEUR-WS, [https://ceur-ws.org/Vol-3287/paper4.pdf](https://ceur-ws.org/Vol-3287/paper4.pdf)  
+1. Gomstyn, A., & Jonker, A. (2025, Noviembre 18). AI misinformation. IBM. https://www.ibm.com/think/insights/ai-misinformation
+2. Cui, Z., Huang, T., Chiang, C. E., & Du, C. (2025, Agosto). Toward Verifiable Misinformation Detection: A Multi-Tool LLM Agent Framework. In Proceedings of the 2025 International Conference on Generative Artificial Intelligence for Business (pp. 179-185).
+3. Shuvrajyoti Debroy (2025, Agosto 22). LangGraph — Risk of Agentic AI. https://medium.com/@shuv.sdr/langgraph-risk-of-agentic-ai-3e314fe0d463
