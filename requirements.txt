@@ -1,3 +1,20 @@
+# Core dependencies for NBA QA System
+transformers>=4.30.0
+torch>=2.0.0
+nba-api>=1.2.1
+pandas>=1.5.0
+numpy>=1.24.0
+datasets>=2.14.0
+accelerate>=0.26.0
+
+# Optional but recommended
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Web search tools
+tavily-python==0.7.14
+langchain-community>=0.4.1
+
 annotated-types==0.7.0
 anyio==4.12.0
 asttokens==3.0.1
