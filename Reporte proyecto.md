@@ -121,3 +121,4 @@ El proyecto desarrolla un agente de verificación de hechos especializado para e
 1. Gomstyn, A., & Jonker, A. (2025, Noviembre 18). AI misinformation. IBM. https://www.ibm.com/think/insights/ai-misinformation
 2. Cui, Z., Huang, T., Chiang, C. E., & Du, C. (2025, Agosto). Toward Verifiable Misinformation Detection: A Multi-Tool LLM Agent Framework. In Proceedings of the 2025 International Conference on Generative Artificial Intelligence for Business (pp. 179-185).
 3. Shuvrajyoti Debroy (2025, Agosto 22). LangGraph — Risk of Agentic AI. https://medium.com/@shuv.sdr/langgraph-risk-of-agentic-ai-3e314fe0d463
+4. Cristian Valdez. (2023, Octubre 10). NBA Data — Using Python. https://medium.com/@cristianvaldez85/nba-data-using-python-82ebc0e19398
