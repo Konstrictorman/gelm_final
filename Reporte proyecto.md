@@ -1,5 +1,13 @@
 # **Reporte de Agente Híbrido para Verificación de Hechos: Arquitectura LangGraph Aplicada a la Verificación de Información de la NBA**
 
+> **Repositorio del Proyecto:** [https://github.com/Konstrictorman/gelm_final](https://github.com/Konstrictorman/gelm_final)
+>
+> Este repositorio contiene la implementación completa del sistema de verificación de hechos para la NBA, incluyendo:
+> - `information_verifier_clean.ipynb`: Notebook principal con el agente de verificación implementado en LangGraph
+> - `nba_qa_system.py`: Sistema de QA especializado con integración a NBA API
+> - `notebooks/`: Notebooks de generación de dataset y fine-tuning del modelo QA
+> - `Reporte proyecto.md`: Documentación técnica completa del proyecto
+
 ## **1\. Introducción y Contexto del Problema**
 
 ### **1.1. La Proliferación de la Desinformación Deportiva en Plataformas Digitales**
