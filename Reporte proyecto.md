@@ -6,7 +6,7 @@
 > - `information_verifier_clean.ipynb`: Notebook principal con el agente de verificación implementado en LangGraph
 > - `nba_qa_system.py`: Sistema de QA especializado con integración a NBA API
 > - `notebooks/`: Notebooks de generación de dataset y fine-tuning del modelo QA
-> - `Reporte proyecto.md`: Documentación técnica completa del proyecto
+> - `Reporte proyecto.md`: Documentación del proyecto
 
 ## **1\. Introducción y Contexto del Problema**
 
